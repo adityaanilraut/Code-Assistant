@@ -1,0 +1,73 @@
+# Claude Code-like Assistant Configuration
+
+# LLM Settings
+llm:
+  default_model: gpt-4
+  temperature: 0.7
+  max_tokens: 4000
+  stream: true
+
+# Interface Settings
+interface:
+  theme: "monokai"
+  show_status_line: true
+  vim_mode: false
+  auto_save_conversations: true
+  max_history_lines: 1000
+
+# Tool Settings
+tools:
+  python_executable: python3
+  shell_executable: /bin/bash
+  max_execution_time: 30
+  show_tool_output: true
+  syntax_highlighting: true
+  
+# File Operations
+files:
+  allowed_extensions:
+    - .py
+    - .js
+    - .ts
+    - .jsx
+    - .tsx
+    - .md
+    - .txt
+    - .json
+    - .yaml
+    - .yml
+    - .html
+    - .css
+    - .sql
+    - .sh
+    - .cpp
+    - .c
+    - .h
+    - .java
+    - .go
+    - .rs
+    - .rb
+    - .php
+  max_file_size: 10MB
+  create_backups: true
+
+# Conversation Settings
+conversation:
+  save_directory: "./conversations"
+  auto_export_format: "markdown"
+  include_timestamps: true
+  max_conversations: 100
+
+# Debug Settings
+debug:
+  verbose_logging: false
+  log_file: "./debug.log"
+  track_token_usage: true
+  performance_monitoring: true
+
+# Hooks (for extensibility)
+hooks:
+  pre_tool_execution: []
+  post_tool_execution: []
+  on_conversation_start: []
+  on_conversation_end: []
