@@ -1,7 +1,9 @@
 # Code Assistant
 
 A comprehensive AI coding assistant with rich terminal interface, advanced tool system, conversation management
-![Code Assistant Screenshot](Screenshot-1.png)
+![Code Assistant Screenshot](Screenshot%201.png)
+
+![Code Assistant Screenshot](Screenshot%202.png)
 ## ✨ Features
 
 🤖 **Enhanced AI Integration**: OpenAI GPT-4 with streaming, token tracking, and model switching  
